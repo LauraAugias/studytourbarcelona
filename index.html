@@ -3,13 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Study Tour à Barcelone | Clic2Com — Immersion professionnelle pour les écoles</title>
-<meta name="description" content="Organisez un study tour professionnel à Barcelone pour vos étudiants. Visites d'entreprises, rencontres institutionnelles, programme sur-mesure. Clic2Com, expert en voyages pédagogiques à Barcelone.">
-<meta name="keywords" content="study tour Barcelone, immersion professionnelle Barcelone, voyage pédagogique Barcelone, visite entreprise Barcelone, programme sur-mesure écoles, séjour professionnel étudiant Espagne, écosystème économique Barcelone">
-<meta property="og:title" content="Study Tour à Barcelone | Clic2Com">
-<meta property="og:description" content="Une immersion dans l'écosystème professionnel de Barcelone. Visites d'entreprises, rencontres institutionnelles, programme sur-mesure pour les écoles.">
+<title>Study Tour à Barcelone pour écoles et étudiants | Clic2Com</title>
+<meta name="description" content="Study tour à Barcelone sur-mesure pour les écoles du supérieur : visites d'entreprises, rencontres institutionnelles, accompagnement sur place. Par Clic2Com.">
+<link rel="canonical" href="https://www.studytourbarcelona.com/">
 <meta property="og:type" content="website">
-<meta property="og:image" content="assets/hero-barcelone-sagrada-familia.jpeg">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Study Tour Barcelone · Clic2Com">
+<meta property="og:url" content="https://www.studytourbarcelona.com/">
+<meta property="og:title" content="Study Tour à Barcelone pour écoles et étudiants | Clic2Com">
+<meta property="og:description" content="Visites d'entreprises, rencontres institutionnelles et programme sur-mesure : Clic2Com organise votre study tour à Barcelone de A à Z.">
+<meta property="og:image" content="https://www.studytourbarcelona.com/assets/hero-barcelone-sagrada-familia.jpeg">
+<meta property="og:image:alt" content="Vue aérienne de Barcelone et de la Sagrada Família">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="assets/logo-clic2com.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,22 +22,179 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Study Tour à Barcelone",
-  "serviceType": "Voyage pédagogique et immersion professionnelle",
-  "provider": {
-    "@type": "Organization",
-    "name": "Clic2Com",
-    "founder": "Laura Augias",
-    "areaServed": "Barcelone, Espagne",
-    "email": "laura@clic2com.com",
-    "telephone": "+34673371564"
-  },
-  "description": "Organisation de study tours professionnels à Barcelone pour les écoles de commerce et écoles supérieures françaises : visites d'entreprises, rencontres institutionnelles et programme sur-mesure.",
-  "audience": {
-    "@type": "EducationalAudience",
-    "educationalRole": "Responsables pédagogiques et directeurs de programmes"
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://clic2com.com/#organization",
+      "name": "Clic2Com",
+      "url": "https://clic2com.com/",
+      "logo": "https://www.studytourbarcelona.com/assets/logo-clic2com.png",
+      "email": "laura@clic2com.com",
+      "telephone": "+34673371564",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Barcelone",
+        "addressCountry": "ES"
+      },
+      "founder": {
+        "@id": "https://www.studytourbarcelona.com/#laura-augias"
+      },
+      "sameAs": [
+        "https://www.instagram.com/clic2com/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.studytourbarcelona.com/#laura-augias",
+      "name": "Laura Augias",
+      "jobTitle": "Fondatrice de Clic2Com",
+      "image": "https://www.studytourbarcelona.com/assets/laura-augias.jpeg",
+      "worksFor": {
+        "@id": "https://clic2com.com/#organization"
+      },
+      "homeLocation": {
+        "@type": "City",
+        "name": "Barcelone"
+      },
+      "knowsAbout": [
+        "Study tour",
+        "Communication digitale",
+        "Écosystème professionnel de Barcelone"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/laugias/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.studytourbarcelona.com/#website",
+      "url": "https://www.studytourbarcelona.com/",
+      "name": "Study Tour Barcelone",
+      "inLanguage": "fr-FR",
+      "publisher": {
+        "@id": "https://clic2com.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.studytourbarcelona.com/#webpage",
+      "url": "https://www.studytourbarcelona.com/",
+      "name": "Study tour à Barcelone pour les écoles de l'enseignement supérieur",
+      "isPartOf": {
+        "@id": "https://www.studytourbarcelona.com/#website"
+      },
+      "about": {
+        "@id": "https://www.studytourbarcelona.com/#service"
+      },
+      "primaryImageOfPage": "https://www.studytourbarcelona.com/assets/hero-barcelone-sagrada-familia.jpeg",
+      "inLanguage": "fr-FR"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.studytourbarcelona.com/#service",
+      "name": "Study tour à Barcelone",
+      "serviceType": "Voyage d'étude et immersion professionnelle pour étudiants",
+      "description": "Organisation sur-mesure de study tours à Barcelone pour les écoles de l'enseignement supérieur : visites d'entreprises, rencontres avec des institutions, coordination et accompagnement sur place.",
+      "provider": {
+        "@id": "https://clic2com.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Barcelone"
+      },
+      "audience": {
+        "@type": "EducationalAudience",
+        "educationalRole": "Écoles de l'enseignement supérieur, responsables pédagogiques et directeurs de programmes"
+      },
+      "url": "https://www.studytourbarcelona.com/"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.studytourbarcelona.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qu'est-ce qu'un study tour à Barcelone ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un study tour à Barcelone est un voyage d'étude professionnel organisé pour un groupe d'étudiants de l'enseignement supérieur. Il combine des visites d'entreprises, des rencontres avec des institutions et des échanges avec des professionnels installés à Barcelone, autour des objectifs pédagogiques de la formation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qui organise ces study tours à Barcelone ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les study tours sont conçus et coordonnés par Clic2Com, agence de communication digitale fondée par Laura Augias et basée à Barcelone. Clic2Com sélectionne les entreprises et institutions visitées, planifie le programme et accompagne le groupe sur place."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que peut-on visiter pendant un study tour à Barcelone ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Des entreprises locales et internationales, des institutions et des lieux économiques emblématiques. Les groupes accompagnés par Clic2Com ont par exemple rencontré la French Tech Barcelona, SAP, The Fork, le Barcelona Supercomputing Center, le Port de Barcelone et la CCI Barcelona. Les visites sont choisies en fonction de la filière des étudiants."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels sont les bénéfices d'un study tour à Barcelone pour une école ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'école propose un programme différenciant, un séjour plus impactant pédagogiquement et gagne un temps précieux dans l'organisation. Le study tour à Barcelone devient un vrai avantage de son offre de formation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qu'apporte un study tour à Barcelone aux étudiants ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les étudiants découvrent concrètement le monde professionnel à Barcelone, s'ouvrent à l'international et vivent des rencontres qui marquent durablement leur parcours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de temps à l'avance faut-il organiser un study tour à Barcelone ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Idéalement 3 à 4 mois avant la date souhaitée, pour prendre le temps de définir le projet pédagogique et d'organiser les visites professionnelles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de temps dure une visite d'entreprise pendant le study tour ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Entre 1 heure et 3 heures selon les entreprises et institutions visitées. La durée s'adapte au programme du groupe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Le study tour peut-il s'adapter à un programme de formation existant ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Chaque study tour à Barcelone est construit en fonction des objectifs pédagogiques, de la filière et du niveau des étudiants."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle taille de groupe pour un study tour à Barcelone ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clic2Com accompagne généralement des groupes de 10 à 30 étudiants. Pour un groupe d'une autre taille, contactez-nous pour en discuter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "L'hébergement et le voyage sont-ils compris dans la prestation ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pour l'hébergement et le voyage, Clic2Com vous met directement en relation avec ses partenaires privilégiés afin que vous ayez une prestation complète."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <style>
@@ -335,7 +497,7 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
 <nav class="nav" id="nav">
   <div class="nav-inner">
     <a href="#hero" class="brand" aria-label="Clic2Com — accueil">
-      <img src="assets/logo-clic2com.png" alt="Logo Clic2Com agence de communication digitale Barcelone">
+      <img src="assets/logo-clic2com.png" alt="Clic2Com">
     </a>
     <div class="nav-links">
       <a href="#objectifs">Objectifs</a>
@@ -346,7 +508,7 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
       <a href="#contact">Contact</a>
     </div>
     <div class="nav-cta">
-      <a class="btn btn-primary" href="https://clic2com.com/prendre-rdv/" target="_blank" rel="noopener">Faire une demande</a>
+      <a class="btn btn-primary" href="https://clic2com.com/rendez-vous" target="_blank" rel="noopener">Faire une demande</a>
     </div>
     <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -360,7 +522,7 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
   <a href="#accompagnement">Accompagnement</a>
   <a href="#faq">FAQ</a>
   <a href="#contact">Contact</a>
-  <a class="btn btn-primary" href="https://clic2com.com/prendre-rdv/" target="_blank" rel="noopener">Faire une demande</a>
+  <a class="btn btn-primary" href="https://clic2com.com/rendez-vous" target="_blank" rel="noopener">Faire une demande</a>
 </div>
 </header>
 
@@ -371,10 +533,10 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
   <div class="hero-inner">
     <div class="hero-content">
       <span class="badge"><span class="dot"></span>Study Tour · Barcelone</span>
-      <h1>Une immersion dans l'écosystème professionnel de Barcelone</h1>
-      <p class="sub">Comprendre, échanger, se projeter : un study tour donne du sens aux apprentissages.</p>
+      <h1>Study tour à Barcelone : une immersion professionnelle pour vos étudiants</h1>
+      <p class="sub">Clic2Com, agence basée à Barcelone, organise des study tours sur-mesure pour les écoles de l'enseignement supérieur : visites d'entreprises, rencontres institutionnelles et accompagnement sur place.</p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="https://clic2com.com/prendre-rdv/" target="_blank" rel="noopener">
+        <a class="btn btn-primary" href="https://clic2com.com/rendez-vous" target="_blank" rel="noopener">
           Faire une demande
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </a>
@@ -392,7 +554,7 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
   <div class="container">
     <div class="split">
       <div class="obj-photo reveal">
-        <img src="assets/objectifs-reunion.jpeg" alt="etudiants-study-tour-barcelone-visite-entreprise-rencontre-professionnelle" loading="lazy">
+        <img src="assets/objectifs-reunion.jpeg" alt="Groupe d'étudiants en réunion avec des professionnels lors d'un study tour à Barcelone" loading="lazy">
         <span class="tag">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#262bb7" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="10" r="3"/><path d="M12 2a8 8 0 0 0-8 8c0 5.4 8 12 8 12s8-6.6 8-12a8 8 0 0 0-8-8Z"/></svg>
           Immersion à Barcelone
@@ -409,7 +571,7 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
           <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>Explorer une grande métropole européenne hub de l'innovation</li>
           <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>S'ouvrir à une nouvelle culture et à d'autres modes de travail</li>
         </ul>
-        <a class="btn btn-primary" href="https://clic2com.com/prendre-rdv/" target="_blank" rel="noopener">
+        <a class="btn btn-primary" href="https://clic2com.com/rendez-vous" target="_blank" rel="noopener">
           Faire une demande
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </a>
@@ -428,7 +590,7 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
     </div>
     <div class="cards-3">
       <article class="vcard reveal">
-        <div class="ph"><img src="assets/port-barcelone-aerien.webp" alt="port-de-barcelone-visite-professionnelle-etudiants-study-tour" loading="lazy"></div>
+        <div class="ph"><img src="assets/port-barcelone-aerien.webp" alt="Vue aérienne du Port de Barcelone" loading="lazy"></div>
         <div class="body">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/><path d="M9 9v0M9 12v0M9 15v0"/></svg></div>
           <h3>Des lieux emblématiques</h3>
@@ -436,7 +598,7 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
         </div>
       </article>
       <article class="vcard reveal">
-        <div class="ph"><img src="assets/thefork-presentation.jpeg" alt="visite-entreprise-barcelone-thefork-etudiants-study-tour-immersion" loading="lazy"></div>
+        <div class="ph"><img src="assets/thefork-presentation.jpeg" alt="Présentation de l'entreprise The Fork à des étudiants à Barcelone" loading="lazy"></div>
         <div class="body">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M4 21V9l8-6 8 6v12"/><path d="M9 21v-6h6v6"/><path d="M9 11h.01M15 11h.01"/></svg></div>
           <h3>Des visites d'entreprises</h3>
@@ -444,7 +606,7 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
         </div>
       </article>
       <article class="vcard reveal">
-        <div class="ph"><img src="assets/institut-francais-groupe.jpeg" alt="french-tech-barcelone-institution-visite-etudiants-voyage-pedagogique" loading="lazy"></div>
+        <div class="ph"><img src="assets/institut-francais-groupe.jpeg" alt="Groupe d'étudiants reçu par une institution à Barcelone" loading="lazy"></div>
         <div class="body">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10M19 21V10M3 10l9-6 9 6M9 21v-5h6v5"/></svg></div>
           <h3>Rencontre des institutions</h3>
@@ -465,32 +627,32 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
     </div>
     <div class="grid-6">
       <article class="pcard reveal">
-        <div class="ph"><img src="assets/french-tech.webp" alt="french-tech-barcelona-rencontre-startups-innovation-study-tour" loading="lazy"></div>
+        <div class="ph"><img src="assets/french-tech.webp" alt="Rencontre avec la French Tech Barcelona" loading="lazy"></div>
         <div class="body"><h3>French Tech Barcelona</h3><p>Découverte du réseau qui réunit les startups, investisseurs et experts de l'innovation à Barcelone.</p></div>
       </article>
       <article class="pcard reveal">
-        <div class="ph"><img src="assets/sap.webp" alt="sap-barcelone-visite-entreprise-logiciels-study-tour-etudiants" loading="lazy"></div>
+        <div class="ph"><img src="assets/sap.webp" alt="Visite des bureaux de SAP à Barcelone" loading="lazy"></div>
         <div class="body"><h3>SAP</h3><p>Rencontre du leader mondial des solutions logicielles pour piloter les entreprises.</p></div>
       </article>
       <article class="pcard reveal">
-        <div class="ph"><img src="assets/thefork-bureaux.jpeg" alt="thefork-barcelone-plateforme-restauration-visite-etudiants" loading="lazy"></div>
+        <div class="ph"><img src="assets/thefork-bureaux.jpeg" alt="Bureaux de The Fork à Barcelone" loading="lazy"></div>
         <div class="body"><h3>The Fork</h3><p>Visite &amp; rencontre avec la plateforme européenne de réservation de restaurants.</p></div>
       </article>
       <article class="pcard reveal">
-        <div class="ph"><img src="assets/bsc-groupe.jpeg" alt="barcelona-supercomputing-center-visite-data-center-europe-etudiants" loading="lazy"></div>
-        <div class="body"><h3>Barcelona Supercomputing Center</h3><p>Visite guidée du plus grand data center européen. Une expérience unique pour comprendre l'infrastructure numérique mondiale.</p></div>
+        <div class="ph"><img src="assets/bsc-groupe.jpeg" alt="Groupe d'étudiants au Barcelona Supercomputing Center" loading="lazy"></div>
+        <div class="body"><h3>Barcelona Supercomputing Center</h3><p>Visite guidée du centre national de supercalcul espagnol, qui abrite le supercalculateur MareNostrum 5. Une expérience unique pour comprendre le calcul haute performance et ses usages.</p></div>
       </article>
       <article class="pcard reveal">
-        <div class="ph"><img src="assets/port-conference.jpeg" alt="port-barcelone-conference-logistique-commerce-etudiants-study-tour" loading="lazy"></div>
+        <div class="ph"><img src="assets/port-conference.jpeg" alt="Conférence au Port de Barcelone pour un groupe d'étudiants" loading="lazy"></div>
         <div class="body"><h3>Port de Barcelone</h3><p>Immersion au cœur des échanges commerciaux et logistiques méditerranéens.</p></div>
       </article>
       <article class="pcard reveal">
-        <div class="ph"><img src="assets/cci-groupe.jpeg" alt="cci-barcelone-chambre-commerce-industrie-rencontre-institutionnelle" loading="lazy"></div>
+        <div class="ph"><img src="assets/cci-groupe.jpeg" alt="Groupe d'étudiants lors d'une rencontre à la CCI Barcelona" loading="lazy"></div>
         <div class="body"><h3>CCI Barcelona</h3><p>Rencontre avec l'écosystème de la Chambre de Commerce et d'Industrie franco-espagnole à Barcelone.</p></div>
       </article>
     </div>
     <div class="center-cta reveal">
-      <a class="btn btn-primary" href="https://clic2com.com/prendre-rdv/" target="_blank" rel="noopener">
+      <a class="btn btn-primary" href="https://clic2com.com/rendez-vous" target="_blank" rel="noopener">
         Organiser votre séjour
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
@@ -514,7 +676,7 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
         </ul>
       </div>
       <div class="prog-photo reveal">
-        <img src="assets/groupe-plein-air.jpeg" alt="groupe-etudiants-study-tour-barcelone-programme-sur-mesure-ecole" loading="lazy">
+        <img src="assets/groupe-plein-air.jpeg" alt="Groupe d'étudiants en plein air pendant un study tour à Barcelone" loading="lazy">
       </div>
     </div>
 
@@ -523,13 +685,13 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
       <p class="sub">Des écoles supérieures et écoles de commerce françaises partenaires de nos study tours.</p>
       <div class="logo-row">
         <a class="school" href="https://www.digital-campus.fr" target="_blank" rel="noopener" aria-label="Digital Campus">
-          <img src="assets/logo-digital-campus.png" alt="Logo Digital Campus école partenaire study tour Barcelone">
+          <img src="assets/logo-digital-campus.png" alt="Digital Campus">
         </a>
         <a class="school" href="https://www.esg.fr" target="_blank" rel="noopener" aria-label="ESG Écoles de Commerce">
-          <img src="assets/logo-esg.png" alt="Logo ESG Écoles de Commerce partenaire study tour Barcelone">
+          <img src="assets/logo-esg.png" alt="ESG Écoles de Commerce">
         </a>
         <a class="school" href="https://www.igensia-education.fr" target="_blank" rel="noopener" aria-label="Igensia Education">
-          <img src="assets/logo-igensia.png" alt="Logo Groupe Igensia Education partenaire study tour Barcelone">
+          <img src="assets/logo-igensia.png" alt="Groupe Igensia Education">
         </a>
       </div>
     </div>
@@ -565,11 +727,11 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
       </div>
     </div>
     <div class="acc-photo reveal">
-      <img src="assets/groupe-festif.jpeg" alt="accompagnement-study-tour-barcelone-groupe-etudiants-clic2com" loading="lazy">
+      <img src="assets/groupe-festif.jpeg" alt="Groupe d'étudiants accompagné par Clic2Com à Barcelone" loading="lazy">
       <div class="ov"></div>
     </div>
     <div class="center-cta reveal">
-      <a class="btn btn-primary" href="https://clic2com.com/prendre-rdv/" target="_blank" rel="noopener">
+      <a class="btn btn-primary" href="https://clic2com.com/rendez-vous" target="_blank" rel="noopener">
         Faire une demande
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
@@ -582,12 +744,12 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
   <div class="container">
     <div class="laura-grid">
       <div class="laura-photo reveal">
-        <img src="assets/laura-augias.jpeg" alt="laura-augias-clic2com-barcelone-experte-communication-study-tour" loading="lazy">
+        <img src="assets/laura-augias.jpeg" alt="Laura Augias, fondatrice de Clic2Com" loading="lazy">
       </div>
       <div class="reveal">
         <span class="eyebrow">À propos</span>
-        <h2>Laura Augias — Experte en communication digitale à Barcelone</h2>
-        <p>Experte en communication digitale, j'ai fondé l'agence Clic2Com à Barcelone. Je propose aux écoles des programmes de study tours à forte valeur pédagogique.</p>
+        <h2>Laura Augias, fondatrice de Clic2Com à Barcelone</h2>
+        <p>Experte en communication digitale, j'ai fondé l'agence <a href="https://clic2com.com/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Clic2Com</a> à Barcelone. Je conçois pour les écoles de l'enseignement supérieur des programmes de study tours à forte valeur pédagogique, et j'accompagne les groupes sur place.</p>
         <p>Mon objectif : créer des passerelles entre les apprentissages académiques et la réalité du monde professionnel catalan pour les étudiants.</p>
         <div class="sign"><span class="line"></span>Laura Augias · Fondatrice de Clic2Com</div>
       </div>
@@ -604,32 +766,44 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
     </div>
     <div class="faq-wrap">
       <div class="faq-item reveal">
-        <button class="faq-q">Quels sont les bénéfices pour mon établissement ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
-        <div class="faq-a"><div class="faq-a-inner">Vous proposez un programme différenciant, un séjour plus impactant pédagogiquement et vous gagnez un temps précieux dans l'organisation. Le study tour à Barcelone devient un vrai avantage de votre offre de formation.</div></div>
+        <button class="faq-q">Qu'est-ce qu'un study tour à Barcelone ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Un study tour à Barcelone est un voyage d'étude professionnel organisé pour un groupe d'étudiants de l'enseignement supérieur. Il combine des visites d'entreprises, des rencontres avec des institutions et des échanges avec des professionnels installés à Barcelone, autour des objectifs pédagogiques de la formation.</div></div>
       </div>
       <div class="faq-item reveal">
-        <button class="faq-q">Et pour les étudiants ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
-        <div class="faq-a"><div class="faq-a-inner">Ils découvrent concrètement le monde professionnel à Barcelone, s'ouvrent à l'international et vivent des rencontres qui marquent durablement leur parcours.</div></div>
+        <button class="faq-q">Qui organise ces study tours à Barcelone ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Les study tours sont conçus et coordonnés par Clic2Com, agence de communication digitale fondée par Laura Augias et basée à Barcelone. Clic2Com sélectionne les entreprises et institutions visitées, planifie le programme et accompagne le groupe sur place.</div></div>
       </div>
       <div class="faq-item reveal">
-        <button class="faq-q">Quand faut-il prévoir l'organisation du séjour ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
-        <div class="faq-a"><div class="faq-a-inner">Idéalement 3 à 4 mois avant la date souhaitée, pour prendre le temps de discuter de votre projet pédagogique et organiser les visites professionnelles.</div></div>
+        <button class="faq-q">Que peut-on visiter pendant un study tour à Barcelone ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Des entreprises locales et internationales, des institutions et des lieux économiques emblématiques. Les groupes accompagnés par Clic2Com ont par exemple rencontré la French Tech Barcelona, SAP, The Fork, le Barcelona Supercomputing Center, le Port de Barcelone et la CCI Barcelona. Les visites sont choisies en fonction de la filière des étudiants.</div></div>
       </div>
       <div class="faq-item reveal">
-        <button class="faq-q">Combien de temps durent les visites professionnelles ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
-        <div class="faq-a"><div class="faq-a-inner">De 1 heure à 3 heures selon les partenaires. Nous nous adaptons à votre programme.</div></div>
+        <button class="faq-q">Quels sont les bénéfices d'un study tour à Barcelone pour une école ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">L'école propose un programme différenciant, un séjour plus impactant pédagogiquement et gagne un temps précieux dans l'organisation. Le study tour à Barcelone devient un vrai avantage de son offre de formation.</div></div>
       </div>
       <div class="faq-item reveal">
-        <button class="faq-q">Est-ce adaptable à un programme existant ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
-        <div class="faq-a"><div class="faq-a-inner">Oui, chaque study tour à Barcelone est entièrement construit en fonction de vos objectifs pédagogiques et de votre formation.</div></div>
+        <button class="faq-q">Qu'apporte un study tour à Barcelone aux étudiants ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Les étudiants découvrent concrètement le monde professionnel à Barcelone, s'ouvrent à l'international et vivent des rencontres qui marquent durablement leur parcours.</div></div>
       </div>
       <div class="faq-item reveal">
-        <button class="faq-q">Avec quels types de groupes travaillez-vous ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
-        <div class="faq-a"><div class="faq-a-inner">Généralement des groupes de 10 à 30 étudiants. Contactez-nous pour discuter de votre projet.</div></div>
+        <button class="faq-q">Combien de temps à l'avance faut-il organiser un study tour à Barcelone ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Idéalement 3 à 4 mois avant la date souhaitée, pour prendre le temps de définir le projet pédagogique et d'organiser les visites professionnelles.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Combien de temps dure une visite d'entreprise pendant le study tour ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Entre 1 heure et 3 heures selon les entreprises et institutions visitées. La durée s'adapte au programme du groupe.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Le study tour peut-il s'adapter à un programme de formation existant ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Oui. Chaque study tour à Barcelone est construit en fonction des objectifs pédagogiques, de la filière et du niveau des étudiants.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Quelle taille de groupe pour un study tour à Barcelone ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Clic2Com accompagne généralement des groupes de 10 à 30 étudiants. Pour un groupe d'une autre taille, contactez-nous pour en discuter.</div></div>
       </div>
       <div class="faq-item reveal">
         <button class="faq-q">L'hébergement et le voyage sont-ils compris dans la prestation ?<span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
-        <div class="faq-a"><div class="faq-a-inner">Pour cette partie, nous vous mettons directement en relation avec nos partenaires privilégiés afin que vous ayez une prestation complète.</div></div>
+        <div class="faq-a"><div class="faq-a-inner">Pour l'hébergement et le voyage, Clic2Com vous met directement en relation avec ses partenaires privilégiés afin que vous ayez une prestation complète.</div></div>
       </div>
     </div>
   </div>
@@ -643,7 +817,7 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="#hero" class="brand">
-          <img src="assets/logo-clic2com-reversed.png" alt="Logo Clic2Com Barcelone" style="height:60px">
+          <img src="assets/logo-clic2com-reversed.png" alt="Clic2Com" style="height:60px">
         </a>
       </div>
       <div>
@@ -666,11 +840,11 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.85rem);color:var(--blue);margin:16px 0 0
         <h4>Localisation</h4>
         <p class="fp">Barcelone, Espagne</p>
         <h4 style="margin-top:24px">En savoir plus</h4>
-        <a class="btn btn-primary" href="https://clic2com.com/prendre-rdv/" target="_blank" rel="noopener">Prendre RDV</a>
+        <a class="btn btn-primary" href="https://clic2com.com/rendez-vous" target="_blank" rel="noopener">Prendre RDV</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2025 Clic2Com · Barcelone · Tous droits réservés</span>
+      <span>© 2026 Clic2Com · Barcelone · Tous droits réservés</span>
       <span>Rendez votre expertise visible.</span>
     </div>
   </div>
